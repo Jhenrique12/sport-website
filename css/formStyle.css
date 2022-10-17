@@ -23,7 +23,7 @@ body {
 .formContainer {
   max-width: 400px;
   height: 550px;
-  background-color: #363636;
+  background-color: #24292f;
   border-radius: 20px 2px 2px 20px;
   display: flex;
   flex-direction: column;
@@ -93,6 +93,17 @@ body {
 }
 #submit:hover {
   background-color: #be0d1c;
+}
+
+.loginAnchor {
+  margin-top: 10px;
+  color: gray;
+  font-size: 12px;
+}
+.loginAnchor a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #f10f22;
 }
 
 .logoForm {
