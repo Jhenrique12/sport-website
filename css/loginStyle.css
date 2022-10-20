@@ -55,7 +55,7 @@ body {
   align-items: center;
   gap: 10px;
 }
-#email {
+.inputStyle {
   padding: 10px;
   width: 250px;
   height: 25px;
@@ -63,20 +63,10 @@ body {
   border-radius: 20px;
   outline: none;
 }
-#email:focus {
+.inputStyle:focus {
   border: 2px solid #d91a2a;
 }
-#password {
-  padding: 10px;
-  width: 250px;
-  height: 25px;
-  border: 2px solid #292929;
-  border-radius: 20px;
-  outline: none;
-}
-#password:focus {
-  border: 2px solid #d91a2a;
-}
+
 #submit {
   margin-top: 30px;
   padding: 4px;
