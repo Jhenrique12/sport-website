@@ -96,6 +96,7 @@ body {
 
 .logoForm {
   border-top: 1px solid white;
+  margin: 20px;
   padding: 20px;
   width: 250px;
 }
