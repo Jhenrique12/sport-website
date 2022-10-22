@@ -102,9 +102,6 @@ body {
 }
 
 .sideContent {
-  background-image: url("../imagens/futebolAmericano.jpg");
-  background-size: 700px 550px;
-  background-repeat: no-repeat;
   min-width: 450px;
   height: 550px;
   border-radius: 20px 2px 2px 20px;
@@ -113,6 +110,9 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
+  background-image: url("../imagens/futebolAmericano.jpg");
+  background-size: 700px 550px;
+  background-repeat: no-repeat;
 }
 
 .sideElements {
@@ -130,26 +130,13 @@ body {
   margin-top: 20px;
   font-weight: bold;
 }
-
-/* Tablets */
+/* 
 @media (max-width: 812px) {
-  body {
-    background-size: cover;
-  }
   .sideContent {
-    display: none;
+    visibility: hidden;
   }
   .formContainer {
     border-radius: 20px;
+    margin-left: 250px;
   }
-}
-/* Smartphones */
-@media (max-width: 375px) {
-  body {
-    background-color: #363636;
-  }
-  .formContainer {
-    border-radius: 0;
-    width: 360px;
-  }
-}
+} */
