@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+}
+body {
+  background-image: url("../imagens/skate-blackwhite.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.mainContainer {
+  max-width: 900px;
+  height: 550px;
+  display: flex;
+}
+
+.formContainer {
+  max-width: 400px;
+  height: 550px;
+
+  background-color: #363636;
+  border-radius: 20px 2px 2px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formTitle {
+  color: #f10f22;
+  font-weight: bold;
+  margin-top: 90px;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+.formDescription {
+  color: lightgray;
+  font-size: 13px;
+  text-align: center;
+  width: 300px;
+  margin: 20px 40px;
+}
+.form {
+  width: auto;
+  height: 200px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.inputStyle {
+  padding: 10px;
+  width: 250px;
+  height: 25px;
+  border: 2px solid #292929;
+  border-radius: 20px;
+  outline: none;
+}
+.inputStyle:focus {
+  border: 2px solid #d91a2a;
+}
+#submit {
+  margin-top: 30px;
+  padding: 4px;
+  width: 250px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid #292929;
+  border-radius: 20px;
+  background-color: #d91a2a;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#submit:hover {
+  background-color: #be0d1c;
+}
+
+.loginAnchor {
+  margin-top: 10px;
+  color: gray;
+  font-size: 12px;
+}
+.loginAnchor a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #f10f22;
+}
+
+.logoForm {
+  border-top: 1px solid white;
+  margin: 20px;
+  padding: 20px;
+  width: 250px;
+}
+
+.sideContent {
+  min-width: 450px;
+  height: 550px;
+  border-radius: 2px 20px 20px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("../imagens/skate-blackwhite.jpg");
+  background-size: 600px 550px;
+  background-repeat: no-repeat;
+}
+
+.sideElements {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imgLogoRock {
+  width: 160px;
+}
+.sideText {
+  font-size: 30px;
+  text-shadow: 1px 1px black;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Tablets */
+@media (max-width: 812px) {
+  body {
+    background-size: cover;
+  }
+  .sideContent {
+    display: none;
+  }
+  .formContainer {
+    border-radius: 20px;
+  }
+}
+/* Smartphones */
+@media (max-width: 375px) {
+  body {
+    background-color: #363636;
+  }
+  .formContainer {
+    border-radius: 0;
+    width: 360px;
+  }
+}
