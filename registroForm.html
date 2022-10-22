@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/formStyle.css" />
+    <link rel="stylesheet" href="./css/registroStyle.css" />
+    <link
+      rel="shortcut icon"
+      href="./imagens/iconrock-red.svg"
+      type="image/x-icon"
+    />
     <title>Registro</title>
   </head>
   <body>
@@ -16,15 +21,36 @@
           esporte preferido.
         </p>
         <form class="form">
+          <label for="nome"></label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="NOME"
+            class="inputStyle"
+            required
+          />
           <label for="email"></label>
-          <input type="email" name="email" id="email" placeholder="EMAIL" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="EMAIL"
+            class="inputStyle"
+            required
+          />
           <label for="password"></label>
           <input
             type="password"
             name="password"
             id="password"
-            placeholder="PASSWORD"
+            placeholder="SENHA"
+            class="inputStyle"
+            required
           />
+          <p class="loginAnchor">
+            Já possui uma conta? <a href="./loginPage.html">Entre aqui!</a>
+          </p>
           <input type="submit" name="submit" id="submit" value="REGISTRAR" />
         </form>
 
