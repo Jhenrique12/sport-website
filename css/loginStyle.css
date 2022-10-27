@@ -130,13 +130,25 @@ body {
   margin-top: 20px;
   font-weight: bold;
 }
-/* 
+/* Tablets */
 @media (max-width: 812px) {
+  body {
+    background-size: cover;
+  }
   .sideContent {
-    visibility: hidden;
+    display: none;
   }
   .formContainer {
     border-radius: 20px;
-    margin-left: 250px;
   }
-} */
+}
+/* Smartphones */
+@media (max-width: 375px) {
+  body {
+    background-color: #363636;
+  }
+  .formContainer {
+    border-radius: 0;
+    width: 360px;
+  }
+}
